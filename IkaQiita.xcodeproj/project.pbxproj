@@ -97,6 +97,7 @@
 		4346ED571D4A5FC50000A882 /* IkaQiita */ = {
 			isa = PBXGroup;
 			children = (
+				4346ED8D1D4A638F0000A882 /* StoryBoard */,
 				4346ED8A1D4A605D0000A882 /* View */,
 				4346ED861D4A5FDE0000A882 /* ViewModel */,
 				4346ED881D4A60260000A882 /* Domain */,
@@ -132,6 +133,7 @@
 		4346ED861D4A5FDE0000A882 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4346ED8F1D4A64900000A882 /* Article */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -139,6 +141,7 @@
 		4346ED881D4A60260000A882 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				4346ED901D4A64A20000A882 /* Repository */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -146,6 +149,9 @@
 		4346ED891D4A60360000A882 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				4346ED911D4A65430000A882 /* Repository */,
+				4346ED931D4A65570000A882 /* DataStore */,
+				4346ED921D4A654D0000A882 /* Network */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -153,8 +159,58 @@
 		4346ED8A1D4A605D0000A882 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4346ED8E1D4A64810000A882 /* Article */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4346ED8D1D4A638F0000A882 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		4346ED8E1D4A64810000A882 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		4346ED8F1D4A64900000A882 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		4346ED901D4A64A20000A882 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		4346ED911D4A65430000A882 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		4346ED921D4A654D0000A882 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4346ED931D4A65570000A882 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
