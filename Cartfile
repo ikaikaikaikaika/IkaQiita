@@ -2,3 +2,5 @@ github "ikesyo/Himotoki" ~> 2.1.1
 github "Swinject/Swinject" ~> 1.1.0
 github "realm/realm-cocoa"
 github "ishkawa/APIKit" ~> 2.0
+github "ReactiveX/RxSwift" ~> 2.0
+

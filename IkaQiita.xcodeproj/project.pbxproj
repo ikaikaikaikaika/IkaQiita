@@ -9,6 +9,29 @@
 /* Begin PBXBuildFile section */
 		43308E791D4CA55000F1F88D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43308E781D4CA55000F1F88D /* Main.storyboard */; };
 		43308E7B1D4CA59800F1F88D /* ArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308E7A1D4CA59800F1F88D /* ArticleListViewController.swift */; };
+		43308E7D1D4CABF800F1F88D /* BaseRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308E7C1D4CABF800F1F88D /* BaseRequestType.swift */; };
+		43308EB71D4CB33000F1F88D /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB11D4CB33000F1F88D /* APIKit.framework */; };
+		43308EB81D4CB33000F1F88D /* APIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB11D4CB33000F1F88D /* APIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43308EB91D4CB33000F1F88D /* Himotoki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB21D4CB33000F1F88D /* Himotoki.framework */; };
+		43308EBA1D4CB33000F1F88D /* Himotoki.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB21D4CB33000F1F88D /* Himotoki.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43308EBB1D4CB33000F1F88D /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB31D4CB33000F1F88D /* Realm.framework */; };
+		43308EBC1D4CB33000F1F88D /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB31D4CB33000F1F88D /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43308EBD1D4CB33000F1F88D /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB41D4CB33000F1F88D /* RealmSwift.framework */; };
+		43308EBE1D4CB33000F1F88D /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB41D4CB33000F1F88D /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43308EBF1D4CB33000F1F88D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB51D4CB33000F1F88D /* Result.framework */; };
+		43308EC01D4CB33000F1F88D /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB51D4CB33000F1F88D /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43308EC11D4CB33000F1F88D /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB61D4CB33000F1F88D /* Swinject.framework */; };
+		43308EC21D4CB33000F1F88D /* Swinject.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43308EB61D4CB33000F1F88D /* Swinject.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43308EC41D4DC4EA00F1F88D /* QiitaAPIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308EC31D4DC4EA00F1F88D /* QiitaAPIRequest.swift */; };
+		43308EC61D4DC4F800F1F88D /* QiitaAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308EC51D4DC4F800F1F88D /* QiitaAPIClient.swift */; };
+		43308ECA1D4DFCCD00F1F88D /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308EC91D4DFCCD00F1F88D /* ArticleModel.swift */; };
+		43308ECF1D4E012C00F1F88D /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308ECE1D4E012C00F1F88D /* RealmService.swift */; };
+		43308ED11D4E01F000F1F88D /* ArticleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308ED01D4E01F000F1F88D /* ArticleRepository.swift */; };
+		43308ED31D4E01FE00F1F88D /* ArticleRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308ED21D4E01FE00F1F88D /* ArticleRepositoryImpl.swift */; };
+		43308ED51D4E026700F1F88D /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308ED41D4E026700F1F88D /* ArticleListViewModel.swift */; };
+		43308ED81D4E034300F1F88D /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308ED71D4E034300F1F88D /* ArticleService.swift */; };
+		43308EDA1D4E044600F1F88D /* ArticleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308ED91D4E044600F1F88D /* ArticleFactory.swift */; };
+		43308EDF1D4E5A4B00F1F88D /* ArticleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43308EDE1D4E5A4B00F1F88D /* ArticleEntity.swift */; };
 		4346ED591D4A5FC50000A882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346ED581D4A5FC50000A882 /* AppDelegate.swift */; };
 		4346ED5B1D4A5FC50000A882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4346ED5A1D4A5FC50000A882 /* ViewController.swift */; };
 		4346ED601D4A5FC50000A882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4346ED5F1D4A5FC50000A882 /* Assets.xcassets */; };
@@ -34,9 +57,45 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		43308EAF1D4CB28C00F1F88D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				43308EBC1D4CB33000F1F88D /* Realm.framework in Embed Frameworks */,
+				43308EBA1D4CB33000F1F88D /* Himotoki.framework in Embed Frameworks */,
+				43308EC01D4CB33000F1F88D /* Result.framework in Embed Frameworks */,
+				43308EC21D4CB33000F1F88D /* Swinject.framework in Embed Frameworks */,
+				43308EBE1D4CB33000F1F88D /* RealmSwift.framework in Embed Frameworks */,
+				43308EB81D4CB33000F1F88D /* APIKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		43308E781D4CA55000F1F88D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		43308E7A1D4CA59800F1F88D /* ArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewController.swift; sourceTree = "<group>"; };
+		43308E7C1D4CABF800F1F88D /* BaseRequestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestType.swift; sourceTree = "<group>"; };
+		43308EB11D4CB33000F1F88D /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		43308EB21D4CB33000F1F88D /* Himotoki.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Himotoki.framework; path = Carthage/Build/iOS/Himotoki.framework; sourceTree = "<group>"; };
+		43308EB31D4CB33000F1F88D /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		43308EB41D4CB33000F1F88D /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		43308EB51D4CB33000F1F88D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		43308EB61D4CB33000F1F88D /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		43308EC31D4DC4EA00F1F88D /* QiitaAPIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiitaAPIRequest.swift; sourceTree = "<group>"; };
+		43308EC51D4DC4F800F1F88D /* QiitaAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QiitaAPIClient.swift; sourceTree = "<group>"; };
+		43308EC91D4DFCCD00F1F88D /* ArticleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		43308ECE1D4E012C00F1F88D /* RealmService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		43308ED01D4E01F000F1F88D /* ArticleRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleRepository.swift; sourceTree = "<group>"; };
+		43308ED21D4E01FE00F1F88D /* ArticleRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleRepositoryImpl.swift; sourceTree = "<group>"; };
+		43308ED41D4E026700F1F88D /* ArticleListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		43308ED71D4E034300F1F88D /* ArticleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
+		43308ED91D4E044600F1F88D /* ArticleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleFactory.swift; sourceTree = "<group>"; };
+		43308EDE1D4E5A4B00F1F88D /* ArticleEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleEntity.swift; sourceTree = "<group>"; };
 		4346ED551D4A5FC50000A882 /* IkaQiita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IkaQiita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4346ED581D4A5FC50000A882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4346ED5A1D4A5FC50000A882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +115,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43308EBB1D4CB33000F1F88D /* Realm.framework in Frameworks */,
+				43308EB91D4CB33000F1F88D /* Himotoki.framework in Frameworks */,
+				43308EBF1D4CB33000F1F88D /* Result.framework in Frameworks */,
+				43308EC11D4CB33000F1F88D /* Swinject.framework in Frameworks */,
+				43308EBD1D4CB33000F1F88D /* RealmSwift.framework in Frameworks */,
+				43308EB71D4CB33000F1F88D /* APIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +141,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43308EC71D4DFAEB00F1F88D /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				43308ED91D4E044600F1F88D /* ArticleFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		43308EC81D4DFAF600F1F88D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43308EC91D4DFCCD00F1F88D /* ArticleModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43308ECD1D4E012200F1F88D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				43308ECE1D4E012C00F1F88D /* RealmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		43308ED61D4E032A00F1F88D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				43308ED71D4E034300F1F88D /* ArticleService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		43308EDD1D4E5A3E00F1F88D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				43308EDE1D4E5A4B00F1F88D /* ArticleEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		4346ED4C1D4A5FC50000A882 = {
 			isa = PBXGroup;
 			children = (
+				43308EB11D4CB33000F1F88D /* APIKit.framework */,
+				43308EB21D4CB33000F1F88D /* Himotoki.framework */,
+				43308EB31D4CB33000F1F88D /* Realm.framework */,
+				43308EB41D4CB33000F1F88D /* RealmSwift.framework */,
+				43308EB51D4CB33000F1F88D /* Result.framework */,
+				43308EB61D4CB33000F1F88D /* Swinject.framework */,
 				4346ED571D4A5FC50000A882 /* IkaQiita */,
 				4346ED6C1D4A5FC60000A882 /* IkaQiitaTests */,
 				4346ED771D4A5FC60000A882 /* IkaQiitaUITests */,
@@ -142,6 +253,9 @@
 		4346ED881D4A60260000A882 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				43308ED61D4E032A00F1F88D /* Service */,
+				43308EC81D4DFAF600F1F88D /* Model */,
+				43308EC71D4DFAEB00F1F88D /* Factory */,
 				4346ED901D4A64A20000A882 /* Repository */,
 			);
 			path = Domain;
@@ -150,6 +264,8 @@
 		4346ED891D4A60360000A882 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				43308EDD1D4E5A3E00F1F88D /* Entity */,
+				43308ECD1D4E012200F1F88D /* Service */,
 				4346ED911D4A65430000A882 /* Repository */,
 				4346ED931D4A65570000A882 /* DataStore */,
 				4346ED921D4A654D0000A882 /* Network */,
@@ -184,6 +300,7 @@
 		4346ED8F1D4A64900000A882 /* Article */ = {
 			isa = PBXGroup;
 			children = (
+				43308ED41D4E026700F1F88D /* ArticleListViewModel.swift */,
 			);
 			path = Article;
 			sourceTree = "<group>";
@@ -191,6 +308,7 @@
 		4346ED901D4A64A20000A882 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				43308ED01D4E01F000F1F88D /* ArticleRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -198,6 +316,7 @@
 		4346ED911D4A65430000A882 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				43308ED21D4E01FE00F1F88D /* ArticleRepositoryImpl.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -205,6 +324,9 @@
 		4346ED921D4A654D0000A882 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				43308E7C1D4CABF800F1F88D /* BaseRequestType.swift */,
+				43308EC31D4DC4EA00F1F88D /* QiitaAPIRequest.swift */,
+				43308EC51D4DC4F800F1F88D /* QiitaAPIClient.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -226,6 +348,8 @@
 				4346ED511D4A5FC50000A882 /* Sources */,
 				4346ED521D4A5FC50000A882 /* Frameworks */,
 				4346ED531D4A5FC50000A882 /* Resources */,
+				43308EAF1D4CB28C00F1F88D /* Embed Frameworks */,
+				43308EB01D4CB2B500F1F88D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -342,14 +466,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43308EB01D4CB2B500F1F88D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Himotoki.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4346ED511D4A5FC50000A882 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43308ECA1D4DFCCD00F1F88D /* ArticleModel.swift in Sources */,
+				43308EC61D4DC4F800F1F88D /* QiitaAPIClient.swift in Sources */,
 				43308E7B1D4CA59800F1F88D /* ArticleListViewController.swift in Sources */,
 				4346ED5B1D4A5FC50000A882 /* ViewController.swift in Sources */,
+				43308ED31D4E01FE00F1F88D /* ArticleRepositoryImpl.swift in Sources */,
+				43308EDF1D4E5A4B00F1F88D /* ArticleEntity.swift in Sources */,
+				43308EC41D4DC4EA00F1F88D /* QiitaAPIRequest.swift in Sources */,
 				4346ED591D4A5FC50000A882 /* AppDelegate.swift in Sources */,
+				43308E7D1D4CABF800F1F88D /* BaseRequestType.swift in Sources */,
+				43308ED81D4E034300F1F88D /* ArticleService.swift in Sources */,
+				43308EDA1D4E044600F1F88D /* ArticleFactory.swift in Sources */,
+				43308ED11D4E01F000F1F88D /* ArticleRepository.swift in Sources */,
+				43308ED51D4E026700F1F88D /* ArticleListViewModel.swift in Sources */,
+				43308ECF1D4E012C00F1F88D /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +637,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = IkaQiita/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ryoto.maeda.IkaQiita;
@@ -494,6 +652,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = IkaQiita/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ryoto.maeda.IkaQiita;
